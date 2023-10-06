@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(51, 51, 51) !important;
+    /* padding-top: 8px; */
+    font-family: 'SF Pro Display', sans-serif !important;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0.5rem !important;
+}
+
+#navbar_logo {
+    width: 4rem;
+    margin-left: 1.5rem;
+}
+
+@media screen and (max-width:600px) {
+    #navbar_logo {
+        width: 3rem;
+        margin-left: 0rem;
+    }
+
+    .name_nav {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* .navbar-toggler-icon {
+    background-color: white;
+} */
+
+#navbar_logo:hover {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #E28B00 !important;
+    font-weight: 500;
+    font-size: 1rem !important;
+}
+
+.nav-link:hover {
+    color: #e7a234 !important;
+}
+
+@media screen and (min-width:1000px) {
+    #current {
+        background-color: #272727 !important;
+        border-radius: 9px;
+        color: white !important;
+    }
+
+}
+
+
+#start_button {
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #101119 !important;
+    background-color: #101119 !important;
+    border-radius: 15px;
+
+}
+
+#start_button:hover {
+    background-color: #E28B00 !important;
+    border-color: #10111900 !important;
+    color: #ffffff !important;
+}
+@media screen and (max-width:1000px) {
+    #start_button{
+        display: none;
+    }
+
+}
+
+.nav1{
+    color: white;
+}
+
+.navbar_everything{
+    display: flex;
+}
+.nav1, .nav3{
+    flex-grow: 1;
+    width: 25%;
+}
+.nav3{
+    text-align: end;
+}
+
+#tenax{
+    color: rgb(226, 139, 0) !important;
+}
+#tenax:hover{
+    color: rgb(144, 91, 4) !important;
+}
+
+
+
+
+
+
+
+
+.bgCover1 {
+    background-image: url(bg3.png);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    position: fixed;
+    background-color: var(--white);
+    z-index: -1;
+}
+
+
+
+.homepage {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 705px;
+    color: white;
+}
+.homepage h1{
+    font-size: 4.5rem;
+    font-family: 'Anton';
+}
+.homepage p{
+    font-size: 1.5rem;
+    font-family: 'Copperplate';
+}
